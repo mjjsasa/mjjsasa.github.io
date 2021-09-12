@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: MADE Tommy;
+  src: url("MADE TOMMY ExtraBold_PERSONAL USE.otf") format("truetype");
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.header {
+  background: #f48a94;
+}
+.header li a {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
+    "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.background {
+  background-image: url("pattern.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.pink {
+  color: #f48a94;
+}
+
+.left hr {
+  height: 10px;
+  background: linear-gradient(to right, #f48a94, white);
+  width: 200px;
+  border: none;
+}
+.right img {
+  width: 550px;
+}
+h3 {
+  font-size: 50px;
+  font-family: MADE Tommy;
+}
+.left h1 {
+  font-size: 170px;
+}
+.dropdown ul a {
+  font-size: 30px;
+}
+.left {
+  font-family: MADE Tommy;
+}
+.white {
+  color: white;
+}
+.left h2 {
+  font-size: 140px;
+}
+.background1 {
+  background: #f48a94;
+  height: 700px;
+  position: relative;
+}
+.background2 {
+  background-image: url("pattern.jpg");
+  position: absolute;
+  background-size: 1000px;
+  background-attachment: fixed;
+  box-shadow: 0px 10px 18px WHITE;
+}
+p {
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
+    "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.discribe {
+  text-align: center;
+}
+.img1 {
+  background-image: url("02.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.img2 {
+  background-image: url("573d6da60165f73bae74.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.img3 {
+  background-image: url("d772487ca4bf57e10eae.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.img4 {
+  background-image: url("FINAL2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.img5 {
+  background-image: url("mockupdanhthiep.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.img6 {
+  background-image: url("VOUCHERMOCKUP.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+h4 {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
+    "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-size: 30px;
+}
+a {
+  color: #f48a94;
+}
+
+.thuvien2 img {
+  width: 300px;
+  padding: 10px;
+  opacity: 0.8;
+  border-radius: 5%;
+}
+.thuvien3 img {
+  width: 300px;
+  padding: 10px;
+  opacity: 0.8;
+  border-radius: 5%;
+}
+.content2 h3 {
+  color: #f48a94;
+  text-align: center;
+  margin: 10% 0 5%;
+  padding-top: 7%;
+}
+.content2 h4 {
+  margin: 0% 10% 5%;
+}
+.img1 {
+  opacity: 0.8;
+  border-radius: 3%;
+}
+.img2 {
+  opacity: 0.8;
+  border-radius: 3%;
+}
+.img3 {
+  opacity: 0.8;
+  border-radius: 3%;
+}
+.img4 {
+  opacity: 0.8;
+  border-radius: 3%;
+}
+.img5 {
+  opacity: 0.8;
+  border-radius: 3%;
+}
+.img6 {
+  opacity: 0.8;
+  border-radius: 3%;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: white;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #f48a94;
+}
+.content2 h4 {
+  border-bottom: 3px solid black;
+  width: 500px;
+}
+.socialmedia img {
+  height: 100px;
+}
+#contact {
+  color: #f48a94;
+  height: 450px;
+}
+.footer {
+  height: 100px;
+  background: #f48a94;
+}
+.footer h4 {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+}

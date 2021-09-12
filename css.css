@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.header li {
+  display: inline;
+  margin-right: 5%;
+
+  list-style: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.logo {
+  float: left;
+  margin-left: 8%;
+  width: 110px;
+  padding-top: 20px;
+}
+.nav3 {
+  float: right;
+  width: 600px;
+  padding-top: 26px;
+}
+.header {
+  height: 80px;
+}
+.header li a {
+  text-decoration: none;
+}
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+.background {
+  position: relative;
+}
+
+#paddingtop1 {
+  padding-top: 5%;
+}
+#paddingtop {
+  padding-top: 10%;
+}
+
+.right {
+  text-align: right;
+  padding-right: 6%;
+}
+.left {
+  float: left;
+  padding: 10%;
+}
+hr {
+  margin: 50px 0 0 0;
+}
+.background2 {
+  margin: 8% 10% 0% 45%;
+}
+.discribe {
+  padding: 100px;
+}
+
+.grid img {
+  width: 70px;
+  display: block;
+  margin: auto;
+}
+.grid {
+  text-align: center;
+}
+.grid {
+  margin: 0 20%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 10px;
+  padding-bottom: 8%;
+}
+#skills h3 {
+  padding: 10% 0 5% 0;
+  text-align: center;
+}
+#skills {
+  height: 400px;
+}
+.thuvien {
+  height: 1000px;
+  margin: 5% 15%;
+}
+.thuvien {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto;
+  grid-gap: 10px;
+}
+.img1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.img2 {
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.img3 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+.img4 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+.img5 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 8;
+}
+.img6 {
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 6;
+  grid-row-end: 8;
+}
+.content {
+  padding-top: 15%;
+  text-align: center;
+}
+.thuvien2 {
+  width: 1300px;
+  height: 330px;
+  display: block;
+  margin: 0 auto 5%;
+}
+
+.thuvien3 {
+  width: 1360px;
+  height: 320px;
+  overflow: scroll;
+  display: block;
+  margin: 5% 7.5% 0;
+  overflow-x: hidden;
+}
+.marginleft {
+  margin: 10%;
+}
+.socialmedia img {
+  padding: 40px 40px 40px 0;
+}
+
+.hotline i {
+  float: left;
+  padding: 0 5% 0 0;
+}
+.phone {
+  padding-top: 2%;
+}

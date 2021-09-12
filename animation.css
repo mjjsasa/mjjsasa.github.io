@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header li a:hover {
+  color: black;
+}
+.dropdown .dropdown {
+  position: relative;
+}
+.dropdownct {
+  position: absolute;
+  z-index: 1;
+}
+a {
+  text-decoration: none;
+}
+.dropdown:hover .dropdownct {
+  display: block;
+  transition-duration: 2s;
+}
+.keodai {
+  transition: width 1s ease 0s;
+}
+.keodai:hover {
+  width: 500px;
+}
+.shine:hover {
+  color: white;
+  transition-duration: 1s;
+  text-shadow: 1px 1px 2px #f48a94, 0 0 25px #f48a94, 0 0 5px #f48a94;
+}
+.dropdownct ul a:hover {
+  color: black;
+}
+.img1:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  opacity: 1;
+}
+.img2:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  opacity: 1;
+}
+
+.img4:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  opacity: 1;
+}
+.img5:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  opacity: 1;
+}
+.img6:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  opacity: 1;
+}
+.img3:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  opacity: 1;
+}
+.thuvien3 img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.thuvien2 img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.socialmedia img:hover {
+  opacity: 0.7;
+  transform: scale(1.05);
+  cursor: pointer;
+}
