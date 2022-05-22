@@ -179,6 +179,7 @@ a {
 }
 .footer {
   height: 100px;
+width: 100%;
   background: #f48a94;
 }
 .footer h4 {
